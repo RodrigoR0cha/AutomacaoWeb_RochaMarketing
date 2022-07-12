@@ -18,7 +18,7 @@ Entao eu verifico se o efeito sanfona está funcionando
 @Portfolio
 Cenario: Abrir links externos do portfólio
 Quando eu acessar a seção de portfólio
-Entao eu verifico se tenho algum exemplo de portfólio
+Entao eu clico em alguns para visualizar em outra aba
 
 @Posts
 Cenario: Acessar alguma postagem do blog
@@ -29,4 +29,13 @@ Entao eu verifico se vou ter acesso a alguma postagem
 Cenario: Preencher o formulário
 Quando eu preencher o formulário
 Entao eu verifico se foi preenchido com sucesso
+
+@lgpd
+Cenario: Aceitando os cookies
+Quando eu aperta o botão de aceitar tudo, verifico se funcionou
+
+@WhatsApp
+Cenario: Acessar API WhatsApp Web
+Quando eu clicar no icone do whatsApp, verifico se teve acesso a API em outra janela
+  
 
